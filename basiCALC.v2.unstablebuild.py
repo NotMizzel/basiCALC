@@ -1,18 +1,22 @@
 print("Welcome to basiCALC © 2022 Brayden Allen \n Operators: + - * / \n Warning: do not use more than one value for each prompt \n")
 while True:
+    exponents = "x"
     input_mult = "*"
     input_div = "/"
     input_add = "+"
     input_sub = "-"
     inputequals = "="
     first = float(input('Please enter your first value: '))
+    einput = (input(" "))
+    if einput == "x":
+        print(input("exponent?"))
     operator = input('Please enter your operator: ')
     second =  float(input('Please enter your second value: '))
     both = (first and second)
     bothint = int(both)
     oneint = int(first)
     twoint = int(second)
-    if first == int(first) and operator == input_add:
+    if both == bothint and operator == input_add:
         print(int(first + second))
     if both != bothint or first != oneint or second != twoint or float(first) + float(second) != bothint and operator == input_mult:
         print(float(first * second))
