@@ -1,4 +1,4 @@
-print("Welcome to basiCALC © 2022 Brayden Allen \n Operators: + - * / \n Warning: do not use more than one value for each prompt \n")
+print("Welcome to basiCALC \n Operators: + - * / \n Warning: do not use more than one value for each prompt \n")
 while True:
     input_mult = "*"
     input_div = "/"
